@@ -191,5 +191,56 @@ body {
     ),
     rgb(255, 255, 255);
 }
-
 /* Standard Curriculum section ends here */
+
+/* nevigation button style start */
+.navigation {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.nav-btn {
+  border: none;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #fea301;
+  padding: 15px 20px 15px 20px;
+}
+/* nevigation button style end */
+
+/* Footer style starts here */
+.footer {
+  background-color: #01acfd;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+}
+.pizza-description {
+  font-size: 20px;
+  font-weight: 400;
+}
+.footer-logo-icon {
+  height: 70px;
+  width: 70px;
+  margin-right: 10px;
+}
+.footer-column {
+}
+.footer-column ul {
+  list-style: none;
+}
+.footer-column ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.social-icon {
+  gap: 10px;
+  height: 40px;
+  width: 40px;
+}
+/* Footer style ends here */
