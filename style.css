@@ -1,4 +1,51 @@
-.flex{
-    display: flex;
-    justify-content: space-between;
+/* Google Fonts :Quicksand */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+/* Google Fonts end */
+
+body {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
+
+/* Navbar related style starts here */
+.flex {
+  display: flex;
+}
+.school {
+  color: rgb(17, 17, 17);
+  font-size: 32px;
+  font-weight: 700;
+}
+.unordered-list {
+  gap: 32px;
+  list-style: none;
+}
+.list-01 {
+  color: #fea301;
+  font-size: 20px;
+}
+.list-02 {
+  color: #01acfd;
+  font-size: 20px;
+}
+.list-03 {
+  color: #05d4df;
+  font-size: 20px;
+}
+.list-04 {
+  color: #5d58ef;
+  font-size: 20px;
+}
+.align-center {
+  align-items: center;
+  justify-content: space-around;
+}
+.button-01 {
+  background-color: #fea301;
+  padding: 16px 60px;
+  border-radius: 12px;
+  border: none;
+}
+/* Navbar related style ends here */
