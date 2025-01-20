@@ -47,5 +47,47 @@ body {
   padding: 16px 60px;
   border-radius: 12px;
   border: none;
+  color: ;
 }
 /* Navbar related style ends here */
+
+/* Banner related style starts here */
+.title-01 {
+  font-size: 56px;
+}
+.color-01 {
+  color: #fea301;
+}
+.color-02 {
+  color: #01acfd;
+}
+.description-01 {
+  color: rgb(17, 17, 17);
+  font-size: 20px;
+  font-weight: 400;
+}
+.button-02 {
+  padding: 10px;
+  border-radius: 12px;
+  background-color: #111111;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+}
+/* Banner related style ends here */
+
+/* Standard Curriculum section starts here */
+.background-img {
+  background-image: url(./assets/bg.png);
+}
+.Standard {
+  color: rgb(0, 0, 0);
+  font-size: 46px;
+  font-weight: 700;
+  text-align: center;
+}
+.kinder {
+  border-radius: 18px;
+}
+/* Standard Curriculum section ends here */
