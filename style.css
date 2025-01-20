@@ -78,16 +78,118 @@ body {
 /* Banner related style ends here */
 
 /* Standard Curriculum section starts here */
+.Curriculum-section {
+  margin-bottom: 80px;
+}
 .background-img {
   background-image: url(./assets/bg.png);
 }
-.Standard {
+.icon {
+  width: 130px;
+  height: 120px;
+  margin: 0 auto 15px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 65px;
+}
+.Kinder-icon {
+  background-image: url("./assets/kinder.png"); /* Replace with your image path */
+}
+
+.Elementary-icon {
+  background-image: url("./assets/elementary.png"); /* Replace with your image path */
+}
+
+.Middle-icon {
+  background-image: url("./assets/middle.png"); /* Replace with your image path */
+}
+.Standard-title {
+  text-align: center;
   color: rgb(0, 0, 0);
   font-size: 46px;
   font-weight: 700;
+  margin-bottom: 80px;
+}
+.kids-title {
+  color: #202020;
+  font-size: 25px;
+  font-weight: 700;
   text-align: center;
 }
-.kinder {
-  border-radius: 18px;
+.kids-description {
+  color: #808080;
 }
+.curriculam-carts {
+  gap: 30px;
+}
+.Read-more-01 {
+  display: inline-block;
+  margin-top: 10px;
+  color: #64c8ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.Read-more-02 {
+  display: inline-block;
+  margin-top: 10px;
+  color: #f39c12;
+  text-decoration: none;
+  font-weight: bold;
+}
+.Read-more-03 {
+  display: inline-block;
+  margin-top: 10px;
+  color: #8700ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.card-01 {
+  border-radius: 18px;
+  padding: 20px;
+  width: 360px;
+  height: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 0 auto;
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(
+      180deg,
+      rgb(222, 245, 255),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+}
+.card-02 {
+  border-radius: 18px;
+  padding: 20px;
+  width: 360px;
+  height: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 0 auto;
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(
+      180deg,
+      rgb(255, 244, 220),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+}
+.card-03 {
+  border-radius: 18px;
+  padding: 20px;
+  width: 360px;
+  height: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 0 auto;
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(
+      180deg,
+      rgb(238, 225, 255),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+}
+
 /* Standard Curriculum section ends here */
