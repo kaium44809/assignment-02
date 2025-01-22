@@ -28,18 +28,22 @@ body {
 .list-01 {
   color: #fea301;
   font-size: 20px;
+  cursor: pointer;
 }
 .list-02 {
   color: #01acfd;
   font-size: 20px;
+  cursor: pointer;
 }
 .list-03 {
   color: #05d4df;
   font-size: 20px;
+  cursor: pointer;
 }
 .list-04 {
   color: #5d58ef;
   font-size: 20px;
+  cursor: pointer;
 }
 .align-center {
   align-items: center;
@@ -52,6 +56,7 @@ body {
   border: none;
   font-size: 25px;
   color: #ffffff;
+  cursor: pointer;
 }
 /* Navbar related style ends here */
 
@@ -85,6 +90,7 @@ body {
   font-weight: 700;
   border: none;
   margin-top: 24px;
+  cursor: pointer;
 }
 /* Banner related style ends here */
 
@@ -96,10 +102,11 @@ body {
   background-image: linear-gradient(
       to bottom,
       rgba(245, 246, 252, 0.52),
-      rgba(221, 148, 203, 0.73)
+      rgba(247, 221, 241, 0.73)
     ),
     url("./assets/bg.png");
   width: 100%;
+  margin-bottom: 0px;
 }
 .icon {
   width: 130px;
@@ -225,6 +232,7 @@ body {
   color: #ffffff;
   background-color: #fea301;
   padding: 15px 20px 15px 20px;
+  cursor: pointer;
 }
 /* nevigation button style end */
 
@@ -298,6 +306,7 @@ body {
   position: relative;
   bottom: 30px;
   margin-left: 30px;
+  cursor: pointer;
 }
 .button-04 {
   background-color: #95b226;
@@ -307,6 +316,7 @@ body {
   position: relative;
   bottom: 20px;
   margin-left: 30px;
+  cursor: pointer;
 }
 .button-05 {
   background-color: #5d58f0;
@@ -316,6 +326,7 @@ body {
   position: relative;
   bottom: 20px;
   margin-left: 30px;
+  cursor: pointer;
 }
 .training-01 {
   padding-top: 15px;
@@ -328,6 +339,9 @@ body {
 }
 .beautiful-description {
   padding-left: 20px;
+}
+.gap {
+  gap: 20px;
 }
 /* .bg-02 {
   background: url(image),
@@ -369,6 +383,7 @@ body {
   gap: 10px;
   height: 40px;
   width: 40px;
+  cursor: pointer;
 }
 .training-01 {
   color: rgb(0, 0, 0);
@@ -393,10 +408,26 @@ body {
   justify-content: center;
   align-items: center;
   border: none;
+  margin-bottom: 60px;
+  cursor: pointer;
 }
 .center {
   text-align: center;
   justify-content: center;
   margin-top: 80px;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
 }
+/* Hover related style starts here */
+.button-01:hover,
+.button-02:hover,
+.button-03:hover,
+.button-04:hover,
+.button-05:hover,
+.nav-btn:hover,
+.left-btn:hover,
+.btn:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+
+/* Hover related style ends here */
